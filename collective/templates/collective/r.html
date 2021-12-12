@@ -1,0 +1,5 @@
+{% for category in categories %}
+<li>
+    <a href="{% url 'collective:employee' category.slug %}">{{ category.name }}</a>
+</li>
+{% endfor %}
