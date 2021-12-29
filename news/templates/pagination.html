@@ -1,14 +1,27 @@
-<div id="pagination">
-    <span>
+{% load i18n %}
+<nav class="courses-pagination mt-50">
+    <ul class="pagination justify-content-lg-end justify-content-center">
         {% if page.has_previous %}
-        <a href="/?page={{ page.previous_page_number }}">Previous</a>
+        <li class="page-item">
+            <a href="/?page={{ page.previous_page_number }}" aria-label="Previous">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        </li>
         {% endif %}
 
-        <span>Page {{ page.number }} of {{ page.paginator.num_pages }}</span>
+        <li class="page-item" style="width: 100px;">
+            <a href="#" class="active" style="display: inline-block; width: 100%;">
+                {% trans "Sahifa" %} {{ page.number }}.
+            </a>
+        </li>
+
 
         {% if page.has_next %}
-        <a href="/?page={{ page.next_page_number }}">Next</a>
+        <li class="page-item">
+            <a href="/?page={{ page.next_page_number }}" aria-label="Next">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
         {% endif %}
-
-    </span>
-</div>
+    </ul>
+</nav> <!-- courses pagination -->

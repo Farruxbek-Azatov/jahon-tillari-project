@@ -7,7 +7,8 @@ class Category(models.Model):
     img = models.ImageField(upload_to='collective/category/')
 
     class Meta:
-        verbose_name_plural = 'Categories'
+        verbose_name = 'Kafedra'
+        verbose_name_plural = 'Kafedralar'
 
     def __str__(self):
         return self.name
@@ -22,7 +23,9 @@ class Employee(models.Model):
     created = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        ordering = ['-created']
+        ordering = ['created']
+        verbose_name = 'Ishchi'
+        verbose_name_plural = 'Ishchilar'
 
     def __str__(self):
         return self.full_name

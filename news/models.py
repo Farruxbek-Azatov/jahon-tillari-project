@@ -22,7 +22,7 @@ class Post(models.Model):
     body = models.TextField()
     publish = models.DateTimeField(default=timezone.now())
     created = models.DateTimeField(auto_now_add=True)
-    img = models.ImageField(blank=True, upload_to='blog/%Y/%m/%d/')
+    img = models.ImageField(upload_to='blog/%Y/%m/%d/')
     status = models.CharField(max_length=10, choices=STATUS_CHOICES,
                               default='draft')
     objects = models.Manager()
@@ -30,6 +30,8 @@ class Post(models.Model):
 
     class Meta:
         ordering = ('-publish',)
+        verbose_name = 'Post'
+        verbose_name_plural = 'Postlar'
 
     def __str__(self):
         return self.title

@@ -8,6 +8,8 @@ class Subject(models.Model):
 
     class Meta:
         ordering = ['name']
+        verbose_name = 'Fan'
+        verbose_name_plural = 'Fanlar'
 
     def __str__(self):
         return self.name
@@ -31,6 +33,10 @@ class Book(ItemBase):
     book = models.FileField(
         upload_to=f'edu/books/')
 
+    class Meta:
+        verbose_name = 'Kitob'
+        verbose_name_plural = 'Kitoblar'
+
     def __str__(self):
         return self.name
 
@@ -39,6 +45,10 @@ class Slide(ItemBase):
     slide = models.FileField(
         upload_to=f'edu/slides/')
 
+    class Meta:
+        verbose_name = 'Slayd'
+        verbose_name_plural = 'Slaydlar'
+
     def __str__(self):
         return self.name
 
@@ -46,15 +56,23 @@ class Slide(ItemBase):
 class Video(ItemBase):
     url = models.URLField()
 
+    class Meta:
+        verbose_name = 'Video'
+        verbose_name_plural = 'Videolar'
+
     def __str__(self):
         return self.name
 
 
 class OnlineLesson(models.Model):
     subject = models.ForeignKey(
-        Subject, related_name='%(class)ss', on_delete=models.CASCADE)
+        Subject, related_name='onlinelessons', on_delete=models.CASCADE)
     name = models.CharField(max_length=255)
     url = models.URLField()
+
+    class Meta:
+        verbose_name = 'Onlayn dars'
+        verbose_name_plural = 'Onlayn darslar'
 
     def __str__(self):
         return self.name

@@ -1,0 +1,646 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-28 15:16+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\collective\templates\collective\page.html:8
+#: .\config\templates\base.html:172
+msgid "Jamoa"
+msgstr ""
+
+#: .\collective\templates\collective\page.html:51
+msgid "No employes yet."
+msgstr ""
+
+#: .\config\settings.py:127
+msgid "O'zbekcha"
+msgstr ""
+
+#: .\config\settings.py:128
+msgid "Inglizcha"
+msgstr ""
+
+#: .\config\settings.py:129
+msgid "Ruscha"
+msgstr ""
+
+#: .\config\templates\base.html:89 .\config\templates\base.html:314
+#: .\pages\templates\pages\contact.html:114
+msgid "Bobur ko'chasi 55, Yakkasaroy, Toshkent"
+msgstr ""
+
+#: .\config\templates\base.html:92 .\config\templates\base.html:330
+msgid "jahon_tillari@gmail.com"
+msgstr ""
+
+#: .\config\templates\base.html:98
+msgid "Ish vaqti : Dushanbadan Shanbagacha - 9 : 00 dan 17 : 00 gacha"
+msgstr ""
+
+#: .\config\templates\base.html:122
+msgid "Litsey ma'muriyati"
+msgstr ""
+
+#: .\config\templates\base.html:123 .\config\templates\base.html:322
+msgid "+998 90 950 93 96"
+msgstr ""
+
+#: .\config\templates\base.html:149 .\config\templates\base.html:278
+#: .\pages\templates\pages\about.html:22
+#: .\pages\templates\pages\contact.html:22
+msgid "Bosh Sahifa"
+msgstr ""
+
+#: .\config\templates\base.html:153 .\config\templates\base.html:280
+#: .\pages\templates\pages\about.html:19 .\pages\templates\pages\index.html:172
+msgid "Biz haqimizda"
+msgstr ""
+
+#: .\config\templates\base.html:157 .\config\templates\base.html:283
+#: .\pages\templates\pages\apply_page.html:9
+#: .\pages\templates\pages\apply_page.html:20
+#: .\pages\templates\pages\index.html:115
+#: .\pages\templates\pages\index.html:151
+msgid "Qabul"
+msgstr ""
+
+#: .\config\templates\base.html:161 .\config\templates\base.html:286
+msgid "Ta'lim"
+msgstr ""
+
+#: .\config\templates\base.html:163 .\edu\templates\direction.html:8
+#: .\edu\templates\direction.html:20
+msgid "Yo'nalishlar"
+msgstr ""
+
+#: .\config\templates\base.html:164 .\edu\templates\edu\book_list.html:19
+#: .\edu\templates\edu\subject_list.html:19
+msgid "Qo'llanmalar"
+msgstr ""
+
+#: .\config\templates\base.html:166
+msgid "Onlayn ta'lim"
+msgstr ""
+
+#: .\config\templates\base.html:180 .\config\templates\base.html:291
+#: .\news\templates\news\detail.html:8 .\news\templates\news\detail.html:25
+#: .\news\templates\news\list.html:8 .\news\templates\news\list.html:19
+#: .\news\templates\news\search.html:8 .\news\templates\news\search.html:19
+msgid "Blog"
+msgstr ""
+
+#: .\config\templates\base.html:184 .\config\templates\base.html:293
+#: .\galery\templates\galery\detail.html:8
+#: .\galery\templates\galery\list.html:21
+msgid "Galereya"
+msgstr ""
+
+#: .\config\templates\base.html:188 .\config\templates\base.html:295
+#: .\pages\templates\pages\contact.html:19
+#: .\pages\templates\pages\contact.html:23
+#: .\pages\templates\pages\index.html:103
+#: .\pages\templates\pages\index.html:139
+msgid "Bog'lanish"
+msgstr ""
+
+#: .\config\templates\base.html:237
+msgid "Izlash"
+msgstr ""
+
+#: .\config\templates\base.html:262
+msgid ""
+"Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat "
+"ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate."
+msgstr ""
+
+#: .\config\templates\base.html:275
+msgid "Sayt haritasi"
+msgstr ""
+
+#: .\config\templates\base.html:306 .\pages\templates\pages\contact.html:8
+msgid "Biz bilan aloqa"
+msgstr ""
+
+#: .\edu\templates\direction.html:50
+msgid "Ijtimoiy yo'nalish"
+msgstr ""
+
+#: .\edu\templates\direction.html:53 .\edu\templates\direction.html:76
+#: .\edu\templates\direction.html:99
+msgid "Imtihonlar"
+msgstr ""
+
+#: .\edu\templates\direction.html:55 .\edu\templates\direction.html:78
+msgid "Matematika"
+msgstr ""
+
+#: .\edu\templates\direction.html:56 .\edu\templates\direction.html:102
+msgid "Ona tili"
+msgstr ""
+
+#: .\edu\templates\direction.html:57 .\edu\templates\direction.html:80
+#: .\pages\templates\pages\apply_page.html:78
+#: .\pages\templates\pages\apply_page.html:101
+#: .\pages\templates\pages\apply_page.html:123
+msgid "Ingliz tili"
+msgstr ""
+
+#: .\edu\templates\direction.html:73
+msgid "Aniq yo'nalish"
+msgstr ""
+
+#: .\edu\templates\direction.html:79
+msgid "Fizika"
+msgstr ""
+
+#: .\edu\templates\direction.html:96
+msgid "Boshqa yo'nalish"
+msgstr ""
+
+#: .\edu\templates\direction.html:101
+#: .\pages\templates\pages\apply_page.html:100
+msgid "Tarix"
+msgstr ""
+
+#: .\edu\templates\direction.html:103
+msgid "Ingliz tili "
+msgstr ""
+
+#: .\edu\templates\edu\book_list.html:8
+msgid "Kitoblar ro'yxati"
+msgstr ""
+
+#: .\edu\templates\edu\book_list.html:39
+msgid "No books yet"
+msgstr ""
+
+#: .\edu\templates\edu\online_lessons.html:9
+#: .\edu\templates\edu\online_lessons.html:20
+msgid "Onlayn darslar"
+msgstr ""
+
+#: .\edu\templates\edu\online_lessons.html:60
+msgid "No lessons yet"
+msgstr ""
+
+#: .\edu\templates\edu\slide_list.html:8
+msgid "Slaydlar ro'yxati"
+msgstr ""
+
+#: .\edu\templates\edu\slide_list.html:19
+#: .\edu\templates\edu\subject_list.html:75
+msgid "Prezentatsiyalar"
+msgstr ""
+
+#: .\edu\templates\edu\slide_list.html:37
+msgid "No slides yet"
+msgstr ""
+
+#: .\edu\templates\edu\subject_list.html:8
+msgid "Fanlar ro'yxati"
+msgstr ""
+
+#: .\edu\templates\edu\subject_list.html:37
+msgid "Elektron kitoblar"
+msgstr ""
+
+#: .\edu\templates\edu\subject_list.html:58
+#: .\edu\templates\edu\subject_list.html:60
+#: .\edu\templates\edu\subject_list.html:96
+#: .\edu\templates\edu\subject_list.html:98
+#: .\edu\templates\edu\subject_list.html:134
+#: .\edu\templates\edu\subject_list.html:136
+msgid "Bosqich"
+msgstr ""
+
+#: .\edu\templates\edu\subject_list.html:65
+msgid "No books"
+msgstr ""
+
+#: .\edu\templates\edu\subject_list.html:103
+msgid "No slides"
+msgstr ""
+
+#: .\edu\templates\edu\subject_list.html:113
+#: .\edu\templates\edu\video_list.html:20
+msgid "Video darslar"
+msgstr ""
+
+#: .\edu\templates\edu\subject_list.html:141
+msgid "No videos"
+msgstr ""
+
+#: .\edu\templates\edu\video_list.html:9
+msgid "Video darslar ro'yxati"
+msgstr ""
+
+#: .\edu\templates\edu\video_list.html:43
+msgid "No videos yet"
+msgstr ""
+
+#: .\galery\templates\galery\detail.html:47
+msgid "No images in this event"
+msgstr ""
+
+#: .\galery\templates\galery\list.html:53
+msgid "No events yet"
+msgstr ""
+
+#: .\news\templates\news\detail.html:75 .\news\templates\news\list.html:81
+#: .\news\templates\news\search.html:84
+msgid "Ohirgi postlar"
+msgstr ""
+
+#: .\news\templates\news\list.html:55 .\news\templates\news\search.html:58
+msgid "No posts"
+msgstr ""
+
+#: .\news\templates\news\search.html:34
+msgid "Qidiruv natijalari"
+msgstr ""
+
+#: .\news\templates\pagination.html:14
+msgid "Sahifa"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:8 .\pages\templates\pages\about.html:23
+#: .\pages\templates\pages\about.html:41
+msgid "Biz Haqimizda"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:42 .\pages\templates\pages\index.html:173
+msgid "Jahon tillariga xush kelibsiz"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:45
+msgid ""
+"Litsey haqida malumot, litsey haqida malumot, litsey haqida malumot,\n"
+"                        litsey haqida malumot, litsey haqida malumot, litsey "
+"haqida malumot,\n"
+"                        litsey haqida malumot, litsey haqida malumot, litsey "
+"haqida malumot,\n"
+"                        litsey haqida malumot, litsey haqida malumot, litsey "
+"haqida malumot.\n"
+"                        Litsey haqida malumot, litsey haqida malumot, litsey "
+"haqida malumot,\n"
+"                        litsey haqida malumot, litsey haqida malumot, litsey "
+"haqida malumot,\n"
+"                        litsey haqida malumot, litsey haqida malumot, litsey "
+"haqida malumot,\n"
+"                        litsey haqida malumot, litsey haqida malumot, litsey "
+"haqida malumot."
+msgstr ""
+
+#: .\pages\templates\pages\about.html:67
+msgid "Nega aynan biz?"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:68
+msgid ""
+"Sifatli ta'lim, kuchli o'qituvchilar tarkibi. Xorijiy etakchi universitetlar "
+"o'qituvchilarining ma'ruzalari."
+msgstr ""
+
+#: .\pages\templates\pages\about.html:75
+msgid "Bizning Maqsad"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:76
+msgid "Litseyning maqsad va vazifalari uchun joy."
+msgstr ""
+
+#: .\pages\templates\pages\about.html:82
+msgid "Boshqa sabab"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:83
+msgid "Boshqa sabab uchun joy"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:102
+msgid "OTM ga kirish"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:108
+msgid "Milliy universitetlarga"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:114
+msgid "Xorijiy universitetlarga"
+msgstr ""
+
+#: .\pages\templates\pages\about.html:120
+msgid "O'qitish yo'nalishlari"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:38
+msgid "Abituriyentlar uchun ma'lumot"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:39
+#: .\pages\templates\pages\apply_page.html:142
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis tempore "
+"quo sint architecto enim inventore tempora voluptatum, iure officia ipsa "
+"earum sit harum qui pariatur quas impedit repellat voluptas ut."
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:42
+#: .\pages\templates\pages\apply_page.html:145
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam architecto "
+"aliquam molestias, itaque numquam animi. Perspiciatis esse, id officiis, "
+"numquam rerum quidem rem voluptatibus dolor debitis eligendi delectus "
+"assumenda aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. "
+"Molestias eveniet accusantium impedit adipisci, nihil consequuntur sunt non "
+"exercitationem similique provident possimus, dolore unde sed illo dolorem "
+"quis, assumenda in cumque eligendi. Quos dicta dolorum doloribus omnis fuga "
+"dolore eaque nisi!"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:46
+#: .\pages\templates\pages\apply_page.html:149
+msgid "Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:47
+#: .\pages\templates\pages\apply_page.html:150
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sunt."
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:60
+msgid "Imtihonlar yo'nalishlar bo'yicha quyidagi fanlardan iborat"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:72
+msgid "Aniq fanlar-iqtisod"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:72
+#: .\pages\templates\pages\apply_page.html:95
+#: .\pages\templates\pages\apply_page.html:117
+msgid "rus guruhlarida"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:77
+#: .\pages\templates\pages\apply_page.html:122
+msgid "Мatematika"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:79
+#: .\pages\templates\pages\apply_page.html:102
+msgid "Rus tili va adabiyot"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:95
+msgid "Ijtimoiy-gumanitar fanlar"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:117
+msgid "MGIMO sinflari"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:124
+msgid "Rus tili"
+msgstr ""
+
+#: .\pages\templates\pages\apply_page.html:140
+msgid "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:42
+msgid "Biz bilan bog'lanish"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:43
+msgid "Xabar jo'natish"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:53
+msgid "Ismingiz"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:60
+msgid "Email"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:67
+msgid "Mavzu"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:74
+msgid "Telefon raqam"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:81
+msgid "Xabar"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:89
+msgid "Yuborish"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:103
+msgid "Manzil"
+msgstr ""
+
+#: .\pages\templates\pages\contact.html:104
+msgid "Agar sizda qandaydir savollar paydo bo'lsa, bemalol bizga bog'laning."
+msgstr ""
+
+#: .\pages\templates\pages\index.html:10
+msgid "Jahon tillari litseyi"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:24 .\pages\templates\pages\index.html:41
+#: .\pages\templates\pages\index.html:58
+msgid "Jahon tillari universiteti Akademik litseyi"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:25 .\pages\templates\pages\index.html:42
+#: .\pages\templates\pages\index.html:59
+msgid "Litsey haqida qisqacha jumlalar"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:79
+msgid "Biz bilan dunyoga yo'l oching"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:91 .\pages\templates\pages\index.html:127
+#: .\pages\templates\pages\index.html:206
+msgid "Yangiliklar"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:176
+#, python-format
+msgid ""
+"\n"
+"                        25 yil ichida Jahon tillari akademik litseyining "
+"5000 dan ortiq\n"
+"                        bitiruvchilariga ega. Litsey barcha boshqaruv "
+"tuzilmalari faoliyatida uzviylik, o'zaro\n"
+"                        javobgarlik va har birining javobgarlik mezonini "
+"ta'minlash orqali ta'lim muassasasining\n"
+"                        o'ziga xos xususiyatlarini aks ettiradigan boshqaruv "
+"tizimini ishlab chiqdi. Bizning\n"
+"                        muvaffaqiyatimiz buni tasdiqlaydi.\n"
+"\n"
+"                        Har yili litsey bitiruvchilari O'zbekiston "
+"Respublikasi va chet el universitetlariga\n"
+"                        kirishadi. Natijada oliy o'quv yurtlariga "
+"bitiruvchilarni qabul qilish darajasi o'rtacha\n"
+"                        90-95%% ni tashkil qiladi. Asosiy mezon – bu ta'lim "
+"muassasasi ta'lim faoliyatining barcha\n"
+"                        jihatlaridagi intizom va izchillik.\n"
+"                        "
+msgstr ""
+
+#: .\pages\templates\pages\index.html:188
+msgid ""
+"\n"
+"                        Jamiyatning boyligi asosan aniq bilim va\n"
+"                        ko'nikmalar bilan hosil qilinadi, uni asosan "
+"o'qimishli odamlar yaratadilar. Albatta,\n"
+"                        litseyda ikki yil o'qish akademik litsey "
+"o'quvchilarining oliy ma'lumotga kirish yo'lidagi\n"
+"                        profilaktik tayyorgarligidir. Bizning faoliyatimiz "
+"litsey hududida sinflarda, kommunikativ\n"
+"                        madaniyatda, iqtidorli o'quvchilarni "
+"rag'batlantirish va qo'llab-quvvatlashda qulay\n"
+"                        sharoitlar yaratishga qaratilgan.\n"
+"\n"
+"                        Tillaev Alisher Xasanovich\n"
+"\n"
+"                        Jahon tillari akademik litsey direktori\n"
+"                        "
+msgstr ""
+
+#: .\pages\templates\pages\index.html:200
+msgid "Ko'proq o'qish"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:233
+msgid "Fikrlar"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:234
+msgid "Biz haqimizda nima deyishadi?"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:248
+msgid ""
+"\n"
+"                            Litseyda tillarni o'rganish bo'yicha barcha "
+"shart sharoitlar\n"
+"                            yaratilgan.\n"
+"                            "
+msgstr ""
+
+#: .\pages\templates\pages\index.html:252
+msgid "Madina Ruslanova"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:253
+msgid "Tilshunoslik universiteti rektori"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:266
+msgid ""
+"\n"
+"                            Litsey haqida boshqa fikrlar, litsey haqida "
+"jumlalar,\n"
+"                            litsey haqida jumlalar\n"
+"                            "
+msgstr ""
+
+#: .\pages\templates\pages\index.html:270
+msgid "Ism Familiya"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:271
+msgid "Lavozim"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:284
+msgid ""
+"\n"
+"                            Jahon tillari litseyi bilimli o'quvchilarni "
+"yetishtirishda\n"
+"                            ilg'or o'quv muassasasi hisoblanadi\n"
+"                            "
+msgstr ""
+
+#: .\pages\templates\pages\index.html:288
+msgid "Bekzod Usmonov"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:289
+msgid "Tillar bo'yicha olim"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:307
+msgid "Litseydan fotolavhalar."
+msgstr ""
+
+#: .\pages\templates\pages\index.html:308
+msgid "Fotogalereya"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:338
+msgid "Bizning afzalliklar"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:347
+msgid "Sifatli talim"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:348
+msgid ""
+"\n"
+"                                        Biz bilan birgalikda sifatli ta'lim "
+"oling va tillarni o'rganing.\n"
+"                                        "
+msgstr ""
+
+#: .\pages\templates\pages\index.html:360
+msgid "Ilg'or ustozlar"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:361
+msgid ""
+"\n"
+"                                        Bizning ustozlar jamoasi yuqori "
+"bilim va tajribaga ega.\n"
+"                                        "
+msgstr ""
+
+#: .\pages\templates\pages\index.html:373
+msgid "Kutubxona va kitoblar"
+msgstr ""
+
+#: .\pages\templates\pages\index.html:374
+msgid ""
+"\n"
+"                                        Litsey katta kutubxona va 10000 dan "
+"ortiq kitoblar bazasiga\n"
+"                                        ega.\n"
+"                                        "
+msgstr ""

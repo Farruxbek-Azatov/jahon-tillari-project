@@ -8,6 +8,10 @@ class Event(models.Model):
     slug = models.SlugField(max_length=255, unique=True)
     created = models.DateTimeField(default=timezone.now())
 
+    class Meta:
+        verbose_name = 'Tadbir'
+        verbose_name_plural = 'Tadbirlar'
+
     def __str__(self):
         return self.title
 
@@ -19,3 +23,7 @@ class Image(models.Model):
     event = models.ForeignKey(
         Event, related_name='images', on_delete=models.CASCADE)
     image = models.ImageField(upload_to='events/%Y/%m/%d/')
+
+    class Meta:
+        verbose_name = 'Rasm'
+        verbose_name_plural = 'Rasmlar'

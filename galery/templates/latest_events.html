@@ -1,0 +1,31 @@
+{% load static %}
+{% load galery_tags %}
+{% for event in latest_events %}
+<div class="col-lg-4">
+    <div class="singel-course">
+        <div class="thum">
+            <div class="image" style="height: 300px;">
+                <img src="{% img_url event %}" style="height: 100%;" alt="Event">
+            </div>
+            <div class="price">
+                <span><i class="fa fa-photo"></i></span>
+            </div>
+        </div>
+        <div class="cont">
+
+            <a href="{{ event.get_absolute_url }}">
+                <h4>{{ event.title }}</h4>
+            </a>
+            <div class="course-teacher">
+                <div class="admin">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-calendar"></i><span>{{ event.created }}</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!-- singel course -->
+</div>
+{% empty %}
+
+{% endfor %}

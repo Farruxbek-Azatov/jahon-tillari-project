@@ -1,0 +1,19 @@
+<ul>
+
+    {% for post in latest_posts %}
+    <li>
+        <a href="{{ post.get_absolute_url }}">
+            <div class="singel-post">
+                <div class="thum">
+                    <img src="{{ post.img.url }}" alt="Blog">
+                </div>
+                <div class="cont">
+                    <h6>{{ post.title }}</h6>
+                    <span>{{ post.publish }}</span>
+                </div>
+            </div> <!-- singel post -->
+        </a>
+    </li>
+    {% endfor %}
+
+</ul>
